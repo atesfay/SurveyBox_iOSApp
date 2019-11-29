@@ -1,0 +1,6 @@
+framework module Pods_SurveyBox_SurveyBoxUITests {
+  umbrella header "Pods-SurveyBox-SurveyBoxUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

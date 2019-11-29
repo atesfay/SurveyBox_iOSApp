@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C16591F238BAB95006525A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16591E238BAB95006525A5 /* AppDelegate.swift */; };
+		5C165921238BAB95006525A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C165920238BAB95006525A5 /* SceneDelegate.swift */; };
+		5C165923238BAB95006525A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C165922238BAB95006525A5 /* ViewController.swift */; };
+		5C165926238BAB95006525A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C165924238BAB95006525A5 /* Main.storyboard */; };
+		5C165928238BAB96006525A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C165927238BAB96006525A5 /* Assets.xcassets */; };
+		5C16592B238BAB96006525A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C165929238BAB96006525A5 /* LaunchScreen.storyboard */; };
+		5C165936238BAB96006525A5 /* SurveyBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C165935238BAB96006525A5 /* SurveyBoxTests.swift */; };
+		5C165941238BAB96006525A5 /* SurveyBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C165940238BAB96006525A5 /* SurveyBoxUITests.swift */; };
+		5C165951238BAEBD006525A5 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C165950238BAEBD006525A5 /* UIViewExtension.swift */; };
+		5C165953238BB965006525A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C165952238BB965006525A5 /* LoginViewController.swift */; };
+		5C165955238BBDE3006525A5 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C165954238BBDE3006525A5 /* SignupViewController.swift */; };
+		5C16F495238CCCBF004150A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C16F494238CCCBF004150A1 /* GoogleService-Info.plist */; };
+		5C287EB6238E2FAB00528BC3 /* SurveyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C287EB5238E2FAB00528BC3 /* SurveyCollectionViewCell.swift */; };
+		5C287EB8238E538C00528BC3 /* CreateSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C287EB7238E538C00528BC3 /* CreateSurveyViewController.swift */; };
+		5C287EBA238E58AD00528BC3 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C287EB9238E58AD00528BC3 /* Survey.swift */; };
+		5CE230F3238EFBD30067C5CF /* SurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE230F2238EFBD30067C5CF /* SurveyDetailViewController.swift */; };
+		5CFA859E238CD01200A1083E /* CreateSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA859D238CD01200A1083E /* CreateSpinner.swift */; };
+		5CFA85A0238CD39C00A1083E /* ShowAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA859F238CD39C00A1083E /* ShowAlertController.swift */; };
+		5CFA85A2238CE63200A1083E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA85A1238CE63200A1083E /* WelcomeViewController.swift */; };
+		92987324CA19F84BBD9B859B /* Pods_SurveyBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61E2E6B045F0C4034D661B0 /* Pods_SurveyBox.framework */; };
+		B97F9190EFCD396A115952EB /* Pods_SurveyBox_SurveyBoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083A51B0DE39916222CC792B /* Pods_SurveyBox_SurveyBoxUITests.framework */; };
+		ED75E8B9228443FB036C1461 /* Pods_SurveyBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BB8E88BD144208C6261F1B /* Pods_SurveyBoxTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C165932238BAB96006525A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C165913238BAB95006525A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C16591A238BAB95006525A5;
+			remoteInfo = SurveyBox;
+		};
+		5C16593D238BAB96006525A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C165913238BAB95006525A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C16591A238BAB95006525A5;
+			remoteInfo = SurveyBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B1C1BA1D3F849D4777FADE /* Pods-SurveyBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SurveyBoxTests/Pods-SurveyBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		083A51B0DE39916222CC792B /* Pods_SurveyBox_SurveyBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SurveyBox_SurveyBoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE968817BAC7C0394F38D3B /* Pods-SurveyBox-SurveyBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBox-SurveyBoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SurveyBox-SurveyBoxUITests/Pods-SurveyBox-SurveyBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11BB8E88BD144208C6261F1B /* Pods_SurveyBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SurveyBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7641A8EFAB600A5B3E1EAC /* Pods-SurveyBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBoxTests.release.xcconfig"; path = "Target Support Files/Pods-SurveyBoxTests/Pods-SurveyBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		48174E5981859D667F5D2254 /* Pods-SurveyBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SurveyBoxTests/Pods-SurveyBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		48BD586D80CB56D624FD1138 /* Pods-SurveyBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-SurveyBox/Pods-SurveyBox.release.xcconfig"; sourceTree = "<group>"; };
+		5C16591B238BAB95006525A5 /* SurveyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C16591E238BAB95006525A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C165920238BAB95006525A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C165922238BAB95006525A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C165925238BAB95006525A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C165927238BAB96006525A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C16592A238BAB96006525A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C16592C238BAB96006525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C165931238BAB96006525A5 /* SurveyBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C165935238BAB96006525A5 /* SurveyBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyBoxTests.swift; sourceTree = "<group>"; };
+		5C165937238BAB96006525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C16593C238BAB96006525A5 /* SurveyBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C165940238BAB96006525A5 /* SurveyBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyBoxUITests.swift; sourceTree = "<group>"; };
+		5C165942238BAB96006525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C165950238BAEBD006525A5 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5C165952238BB965006525A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C165954238BBDE3006525A5 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5C16F494238CCCBF004150A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C287EB5238E2FAB00528BC3 /* SurveyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C287EB7238E538C00528BC3 /* CreateSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSurveyViewController.swift; sourceTree = "<group>"; };
+		5C287EB9238E58AD00528BC3 /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		5CE230F2238EFBD30067C5CF /* SurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyDetailViewController.swift; sourceTree = "<group>"; };
+		5CFA859D238CD01200A1083E /* CreateSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSpinner.swift; sourceTree = "<group>"; };
+		5CFA859F238CD39C00A1083E /* ShowAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertController.swift; sourceTree = "<group>"; };
+		5CFA85A1238CE63200A1083E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6772A2312B4B5BF2F7C2099A /* Pods-SurveyBox-SurveyBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBox-SurveyBoxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SurveyBox-SurveyBoxUITests/Pods-SurveyBox-SurveyBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F437E26C9A2FDA233D7EE34 /* Pods-SurveyBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBoxTests.debug.xcconfig"; path = "Target Support Files/Pods-SurveyBoxTests/Pods-SurveyBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91D4417CB6F2FA74B49E113A /* Pods-SurveyBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBox.release.xcconfig"; path = "Target Support Files/Pods-SurveyBox/Pods-SurveyBox.release.xcconfig"; sourceTree = "<group>"; };
+		9A64483F1CD80A5B6FB313DB /* Pods-SurveyBox-SurveyBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBox-SurveyBoxUITests.release.xcconfig"; path = "Target Support Files/Pods-SurveyBox-SurveyBoxUITests/Pods-SurveyBox-SurveyBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A997827A53E7179A38716880 /* Pods-SurveyBox-SurveyBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBox-SurveyBoxUITests.debug.xcconfig"; path = "Target Support Files/Pods-SurveyBox-SurveyBoxUITests/Pods-SurveyBox-SurveyBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B61E2E6B045F0C4034D661B0 /* Pods_SurveyBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SurveyBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B2B7D224E300301AA83505 /* Pods-SurveyBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SurveyBox/Pods-SurveyBox.debug.xcconfig"; sourceTree = "<group>"; };
+		F42DF113801DCAD63649E8A5 /* Pods-SurveyBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyBox.debug.xcconfig"; path = "Target Support Files/Pods-SurveyBox/Pods-SurveyBox.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C165918238BAB95006525A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92987324CA19F84BBD9B859B /* Pods_SurveyBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C16592E238BAB96006525A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75E8B9228443FB036C1461 /* Pods_SurveyBoxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C165939238BAB96006525A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97F9190EFCD396A115952EB /* Pods_SurveyBox_SurveyBoxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C165912238BAB95006525A5 = {
+			isa = PBXGroup;
+			children = (
+				5C16591D238BAB95006525A5 /* SurveyBox */,
+				5C165934238BAB96006525A5 /* SurveyBoxTests */,
+				5C16593F238BAB96006525A5 /* SurveyBoxUITests */,
+				5C16591C238BAB95006525A5 /* Products */,
+				C922D015386AFBC203A54936 /* Pods */,
+				F1A4D9C547785BA5D02F1360 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C16591C238BAB95006525A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C16591B238BAB95006525A5 /* SurveyBox.app */,
+				5C165931238BAB96006525A5 /* SurveyBoxTests.xctest */,
+				5C16593C238BAB96006525A5 /* SurveyBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C16591D238BAB95006525A5 /* SurveyBox */ = {
+			isa = PBXGroup;
+			children = (
+				5C287EBB238E58B400528BC3 /* Models */,
+				5C287EB4238E2F8B00528BC3 /* Views */,
+				5CFA85A4238CF96500A1083E /* Helpers */,
+				5CFA85A3238CF95800A1083E /* Controllers */,
+				5C16591E238BAB95006525A5 /* AppDelegate.swift */,
+				5C165920238BAB95006525A5 /* SceneDelegate.swift */,
+				5C165924238BAB95006525A5 /* Main.storyboard */,
+				5C165927238BAB96006525A5 /* Assets.xcassets */,
+				5C165929238BAB96006525A5 /* LaunchScreen.storyboard */,
+				5C16592C238BAB96006525A5 /* Info.plist */,
+				5C16F494238CCCBF004150A1 /* GoogleService-Info.plist */,
+			);
+			path = SurveyBox;
+			sourceTree = "<group>";
+		};
+		5C165934238BAB96006525A5 /* SurveyBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C165935238BAB96006525A5 /* SurveyBoxTests.swift */,
+				5C165937238BAB96006525A5 /* Info.plist */,
+			);
+			path = SurveyBoxTests;
+			sourceTree = "<group>";
+		};
+		5C16593F238BAB96006525A5 /* SurveyBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C165940238BAB96006525A5 /* SurveyBoxUITests.swift */,
+				5C165942238BAB96006525A5 /* Info.plist */,
+			);
+			path = SurveyBoxUITests;
+			sourceTree = "<group>";
+		};
+		5C287EB4238E2F8B00528BC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C287EB5238E2FAB00528BC3 /* SurveyCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C287EBB238E58B400528BC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C287EB9238E58AD00528BC3 /* Survey.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CFA85A3238CF95800A1083E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C165922238BAB95006525A5 /* ViewController.swift */,
+				5C165952238BB965006525A5 /* LoginViewController.swift */,
+				5C165954238BBDE3006525A5 /* SignupViewController.swift */,
+				5CFA85A1238CE63200A1083E /* WelcomeViewController.swift */,
+				5C287EB7238E538C00528BC3 /* CreateSurveyViewController.swift */,
+				5CE230F2238EFBD30067C5CF /* SurveyDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5CFA85A4238CF96500A1083E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5CFA859F238CD39C00A1083E /* ShowAlertController.swift */,
+				5CFA859D238CD01200A1083E /* CreateSpinner.swift */,
+				5C165950238BAEBD006525A5 /* UIViewExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C922D015386AFBC203A54936 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F42DF113801DCAD63649E8A5 /* Pods-SurveyBox.debug.xcconfig */,
+				91D4417CB6F2FA74B49E113A /* Pods-SurveyBox.release.xcconfig */,
+				A997827A53E7179A38716880 /* Pods-SurveyBox-SurveyBoxUITests.debug.xcconfig */,
+				9A64483F1CD80A5B6FB313DB /* Pods-SurveyBox-SurveyBoxUITests.release.xcconfig */,
+				6F437E26C9A2FDA233D7EE34 /* Pods-SurveyBoxTests.debug.xcconfig */,
+				2A7641A8EFAB600A5B3E1EAC /* Pods-SurveyBoxTests.release.xcconfig */,
+				C1B2B7D224E300301AA83505 /* Pods-SurveyBox.debug.xcconfig */,
+				48BD586D80CB56D624FD1138 /* Pods-SurveyBox.release.xcconfig */,
+				0AE968817BAC7C0394F38D3B /* Pods-SurveyBox-SurveyBoxUITests.debug.xcconfig */,
+				6772A2312B4B5BF2F7C2099A /* Pods-SurveyBox-SurveyBoxUITests.release.xcconfig */,
+				02B1C1BA1D3F849D4777FADE /* Pods-SurveyBoxTests.debug.xcconfig */,
+				48174E5981859D667F5D2254 /* Pods-SurveyBoxTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1A4D9C547785BA5D02F1360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B61E2E6B045F0C4034D661B0 /* Pods_SurveyBox.framework */,
+				083A51B0DE39916222CC792B /* Pods_SurveyBox_SurveyBoxUITests.framework */,
+				11BB8E88BD144208C6261F1B /* Pods_SurveyBoxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C16591A238BAB95006525A5 /* SurveyBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C165945238BAB96006525A5 /* Build configuration list for PBXNativeTarget "SurveyBox" */;
+			buildPhases = (
+				9D4978467C9B849D35D3813D /* [CP] Check Pods Manifest.lock */,
+				5C165917238BAB95006525A5 /* Sources */,
+				5C165918238BAB95006525A5 /* Frameworks */,
+				5C165919238BAB95006525A5 /* Resources */,
+				D306753D4BC3B80661B561BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurveyBox;
+			productName = SurveyBox;
+			productReference = 5C16591B238BAB95006525A5 /* SurveyBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C165930238BAB96006525A5 /* SurveyBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C165948238BAB96006525A5 /* Build configuration list for PBXNativeTarget "SurveyBoxTests" */;
+			buildPhases = (
+				653C7381A2A9374EC9EE24E1 /* [CP] Check Pods Manifest.lock */,
+				5C16592D238BAB96006525A5 /* Sources */,
+				5C16592E238BAB96006525A5 /* Frameworks */,
+				5C16592F238BAB96006525A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C165933238BAB96006525A5 /* PBXTargetDependency */,
+			);
+			name = SurveyBoxTests;
+			productName = SurveyBoxTests;
+			productReference = 5C165931238BAB96006525A5 /* SurveyBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C16593B238BAB96006525A5 /* SurveyBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C16594B238BAB96006525A5 /* Build configuration list for PBXNativeTarget "SurveyBoxUITests" */;
+			buildPhases = (
+				E443D2742C11B740E9B3393F /* [CP] Check Pods Manifest.lock */,
+				5C165938238BAB96006525A5 /* Sources */,
+				5C165939238BAB96006525A5 /* Frameworks */,
+				5C16593A238BAB96006525A5 /* Resources */,
+				5C12327D73408A2FDBAC71A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C16593E238BAB96006525A5 /* PBXTargetDependency */,
+			);
+			name = SurveyBoxUITests;
+			productName = SurveyBoxUITests;
+			productReference = 5C16593C238BAB96006525A5 /* SurveyBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C165913238BAB95006525A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = kimlenghor;
+				TargetAttributes = {
+					5C16591A238BAB95006525A5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					5C165930238BAB96006525A5 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 5C16591A238BAB95006525A5;
+					};
+					5C16593B238BAB96006525A5 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 5C16591A238BAB95006525A5;
+					};
+				};
+			};
+			buildConfigurationList = 5C165916238BAB95006525A5 /* Build configuration list for PBXProject "SurveyBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C165912238BAB95006525A5;
+			productRefGroup = 5C16591C238BAB95006525A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C16591A238BAB95006525A5 /* SurveyBox */,
+				5C165930238BAB96006525A5 /* SurveyBoxTests */,
+				5C16593B238BAB96006525A5 /* SurveyBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C165919238BAB95006525A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C16592B238BAB96006525A5 /* LaunchScreen.storyboard in Resources */,
+				5C16F495238CCCBF004150A1 /* GoogleService-Info.plist in Resources */,
+				5C165928238BAB96006525A5 /* Assets.xcassets in Resources */,
+				5C165926238BAB95006525A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C16592F238BAB96006525A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C16593A238BAB96006525A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C12327D73408A2FDBAC71A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SurveyBox-SurveyBoxUITests/Pods-SurveyBox-SurveyBoxUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SurveyBox-SurveyBoxUITests/Pods-SurveyBox-SurveyBoxUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SurveyBox-SurveyBoxUITests/Pods-SurveyBox-SurveyBoxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		653C7381A2A9374EC9EE24E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SurveyBoxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4978467C9B849D35D3813D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SurveyBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D306753D4BC3B80661B561BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SurveyBox/Pods-SurveyBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SurveyBox/Pods-SurveyBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SurveyBox/Pods-SurveyBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E443D2742C11B740E9B3393F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SurveyBox-SurveyBoxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C165917238BAB95006525A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFA85A2238CE63200A1083E /* WelcomeViewController.swift in Sources */,
+				5C165955238BBDE3006525A5 /* SignupViewController.swift in Sources */,
+				5CFA85A0238CD39C00A1083E /* ShowAlertController.swift in Sources */,
+				5C165923238BAB95006525A5 /* ViewController.swift in Sources */,
+				5CFA859E238CD01200A1083E /* CreateSpinner.swift in Sources */,
+				5C16591F238BAB95006525A5 /* AppDelegate.swift in Sources */,
+				5C287EB8238E538C00528BC3 /* CreateSurveyViewController.swift in Sources */,
+				5C165951238BAEBD006525A5 /* UIViewExtension.swift in Sources */,
+				5C165953238BB965006525A5 /* LoginViewController.swift in Sources */,
+				5C287EBA238E58AD00528BC3 /* Survey.swift in Sources */,
+				5C287EB6238E2FAB00528BC3 /* SurveyCollectionViewCell.swift in Sources */,
+				5C165921238BAB95006525A5 /* SceneDelegate.swift in Sources */,
+				5CE230F3238EFBD30067C5CF /* SurveyDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C16592D238BAB96006525A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C165936238BAB96006525A5 /* SurveyBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C165938238BAB96006525A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C165941238BAB96006525A5 /* SurveyBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C165933238BAB96006525A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C16591A238BAB95006525A5 /* SurveyBox */;
+			targetProxy = 5C165932238BAB96006525A5 /* PBXContainerItemProxy */;
+		};
+		5C16593E238BAB96006525A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C16591A238BAB95006525A5 /* SurveyBox */;
+			targetProxy = 5C16593D238BAB96006525A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C165924238BAB95006525A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C165925238BAB95006525A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C165929238BAB96006525A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C16592A238BAB96006525A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C165943238BAB96006525A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C165944238BAB96006525A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C165946238BAB96006525A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42DF113801DCAD63649E8A5 /* Pods-SurveyBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57W93Y38Q2;
+				INFOPLIST_FILE = SurveyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AbrahamTesfay.SurveyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C165947238BAB96006525A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D4417CB6F2FA74B49E113A /* Pods-SurveyBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57W93Y38Q2;
+				INFOPLIST_FILE = SurveyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AbrahamTesfay.SurveyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C165949238BAB96006525A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F437E26C9A2FDA233D7EE34 /* Pods-SurveyBoxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57W93Y38Q2;
+				INFOPLIST_FILE = SurveyBoxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.SurveyBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyBox.app/SurveyBox";
+			};
+			name = Debug;
+		};
+		5C16594A238BAB96006525A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7641A8EFAB600A5B3E1EAC /* Pods-SurveyBoxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57W93Y38Q2;
+				INFOPLIST_FILE = SurveyBoxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.SurveyBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyBox.app/SurveyBox";
+			};
+			name = Release;
+		};
+		5C16594C238BAB96006525A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A997827A53E7179A38716880 /* Pods-SurveyBox-SurveyBoxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57W93Y38Q2;
+				INFOPLIST_FILE = SurveyBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.SurveyBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurveyBox;
+			};
+			name = Debug;
+		};
+		5C16594D238BAB96006525A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A64483F1CD80A5B6FB313DB /* Pods-SurveyBox-SurveyBoxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57W93Y38Q2;
+				INFOPLIST_FILE = SurveyBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.SurveyBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurveyBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C165916238BAB95006525A5 /* Build configuration list for PBXProject "SurveyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C165943238BAB96006525A5 /* Debug */,
+				5C165944238BAB96006525A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C165945238BAB96006525A5 /* Build configuration list for PBXNativeTarget "SurveyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C165946238BAB96006525A5 /* Debug */,
+				5C165947238BAB96006525A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C165948238BAB96006525A5 /* Build configuration list for PBXNativeTarget "SurveyBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C165949238BAB96006525A5 /* Debug */,
+				5C16594A238BAB96006525A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C16594B238BAB96006525A5 /* Build configuration list for PBXNativeTarget "SurveyBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C16594C238BAB96006525A5 /* Debug */,
+				5C16594D238BAB96006525A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C165913238BAB95006525A5 /* Project object */;
+}
