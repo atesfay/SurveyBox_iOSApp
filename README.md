@@ -38,6 +38,14 @@ use_frameworks!
 pod 'YourLibrary'
 ```
 
+#### Google's Firbase Database
+Install Firbase locally  [Firbase](https://firebase.google.com/) to install `Firbase` by adding it to your `Podfile`:
+
+```Firbase
+
+pod install
+```
+
 To get the full benefits import `YourLibrary` wherever you import UIKit
 
 ``` swift
