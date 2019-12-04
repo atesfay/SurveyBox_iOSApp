@@ -54,6 +54,7 @@ class CreateSurveyViewController: UIViewController {
                 let data: [String: Any] = [
                     "firstname": user.firstname,
                     "lastname": user.lastname,
+                    "percentage": [0, 0, 0],
                     "question": self.questionTextView.text ?? "",
                     "answers": [self.option1TextField.text, self.option2TextField.text, self.option3TextField.text]
                 ]
