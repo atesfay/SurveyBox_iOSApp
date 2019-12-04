@@ -10,7 +10,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-One to two paragraph statement about your product and what it does.
+Upon opening the app the user will be directed to the login page with an option to create a new account. Once the user is logged in, the user will be directed to the main page where surveys can be created and viewed. The create survey page would allow the user to create a custom survey. On the view survey page, the user can view past surveys that have been created. To filter the results on the page, the user can search for each survey and pull up the most relevant results. This will display some data and metric feedback from the surveys.
 
 ![](header.png)
 
